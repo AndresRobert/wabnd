@@ -1,1 +1,3 @@
-console.log('SW: Registered');
+self.addEventListener('message', e => {
+    console.log(e.data);
+});

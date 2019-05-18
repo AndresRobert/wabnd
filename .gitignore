@@ -2,3 +2,4 @@
 .idea/
 cgi-bin/
 /.idea/*
+.idea/workspace.xml

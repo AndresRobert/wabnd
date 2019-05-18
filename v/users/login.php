@@ -16,18 +16,16 @@
                 <section>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                     <div class="col-12s col-8l">
-                        <i class="fas fa-at input"></i>
-                        <input id="login_email" type="email" class="full icon" error="should be a valid email" content="Email" autocomplete="email">
-                        <label class="icon" for="login_email">Email</label>
+                        <input id="login_email" type="email" class="full" error="should be a valid email" content="Email" autocomplete="email">
+                        <label class="" for="login_email">Email</label>
                     </div>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                 </section>
                 <section>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                     <div class="col-12s col-8l">
-                        <i class="fas fa-fingerprint input"></i>
-                        <input id="login_password" type="password" class="full icon" error="should not be empty" content="Password" autocomplete="current-password">
-                        <label class="icon" for="login_password">Password</label>
+                        <input id="login_password" type="password" class="full" error="should not be empty" content="Password" autocomplete="current-password">
+                        <label class="" for="login_password">Password</label>
                     </div>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                 </section>
@@ -48,27 +46,24 @@
                 <section>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                     <div class="col-12s col-8l">
-                        <i class="fas fa-at input"></i>
-                        <input id="reg_email" type="email" class="full icon" error="should be a valid email" content="Email" autocomplete="email">
-                        <label class="icon" for="reg_email">Email</label>
+                        <input id="reg_email" type="email" class="full" error="should be a valid email" content="Email" autocomplete="email">
+                        <label class="" for="reg_email">Email</label>
                     </div>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                 </section>
                 <section>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                     <div class="col-12s col-8l">
-                        <i class="far fa-user-circle input"></i>
-                        <input id="reg_username" type="text" class="full icon" error="should not be empty" content="Username" autocomplete="username">
-                        <label class="icon" for="reg_username">Username</label>
+                        <input id="reg_username" type="text" class="full" error="should not be empty" content="Username" autocomplete="username">
+                        <label class="" for="reg_username">Username</label>
                     </div>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                 </section>
                 <section>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                     <div class="col-12s col-8l">
-                        <i class="fas fa-fingerprint input"></i>
-                        <input id="reg_password" type="password" class="full icon" error="should not be empty" content="Password" autocomplete="new-password">
-                        <label class="icon" for="reg_password">Password</label>
+                        <input id="reg_password" type="password" class="full" error="should not be empty" content="Password" autocomplete="new-password">
+                        <label class="" for="reg_password">Password</label>
                     </div>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                 </section>
@@ -89,9 +84,8 @@
                 <section>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                     <div class="col-12s col-8l">
-                        <i class="fas fa-at input"></i>
-                        <input id="rec_email" type="email" class="full icon" error="should be a valid email" content="Email" autocomplete="username">
-                        <label class="icon" for="rec_email">Email</label>
+                        <input id="rec_email" type="email" class="full" error="should be a valid email" content="Email" autocomplete="username">
+                        <label class="" for="rec_email">Email</label>
                     </div>
                     <div class="col-12s col-2l col-hidden-s col-hidden-m"></div>
                 </section>

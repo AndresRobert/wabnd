@@ -4,29 +4,10 @@
     <list default="true" id="77b05639-918f-421c-a359-0343c0e5049f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m/Snackbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/m/Snackbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/inc/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/v/inc/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/js/all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/sprites/brands.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/sprites/regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/sprites/solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-solid-900.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-solid-900.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-solid-900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/inc/fa/webfonts/fa-solid-900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/layout/in.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/layout/in.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/layout/out.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/layout/out.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/users/login.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,35 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v/inc/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v/layout/in.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="126">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v/layout/out.php">
+        <entry file="file://$PROJECT_DIR$/sw.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -102,7 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>container</find>
       <find>class=&quot;row</find>
       <find>row</find>
       <find>at</find>
@@ -120,9 +82,7 @@
       <find>7</find>
       <find>border-bottom</find>
       <find>profile</find>
-      <find>input</find>
       <find>.nav-toggle-s</find>
-      <find>icon</find>
       <find>action</find>
       <find>service(</find>
       <find>controller</find>
@@ -132,6 +92,9 @@
       <find>border-left: 0.5rem solid var(--nav-toggle-background);</find>
       <find>nav-toggle-l</find>
       <find>--nav-toggle-background</find>
+      <find>input</find>
+      <find>icon</find>
+      <find>&lt;i class=&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,7 +114,6 @@
         <option value="$PROJECT_DIR$/m/CharacterObject.php" />
         <option value="$PROJECT_DIR$/m/Invitation.php" />
         <option value="$PROJECT_DIR$/m/Object.php" />
-        <option value="$PROJECT_DIR$/m/Snackbar.php" />
         <option value="$PROJECT_DIR$/ms/snackbar.php" />
         <option value="$PROJECT_DIR$/m/Mail.php" />
         <option value="$PROJECT_DIR$/v/layout/default.php" />
@@ -164,16 +126,17 @@
         <option value="$PROJECT_DIR$/v/users/profile.php" />
         <option value="$PROJECT_DIR$/v/users/index.php" />
         <option value="$PROJECT_DIR$/c/inc/auth.php" />
-        <option value="$PROJECT_DIR$/v/users/login.php" />
         <option value="$PROJECT_DIR$/v/inc/base.css" />
         <option value="$PROJECT_DIR$/v/users/dashboard.php" />
         <option value="$PROJECT_DIR$/v/layout/credits.php" />
         <option value="$PROJECT_DIR$/m/DB.php" />
-        <option value="$PROJECT_DIR$/sw.js" />
-        <option value="$PROJECT_DIR$/v/inc/base.js" />
         <option value="$PROJECT_DIR$/v/layout/in.php" />
         <option value="$PROJECT_DIR$/v/layout/out.php" />
+        <option value="$PROJECT_DIR$/v/users/login.php" />
+        <option value="$PROJECT_DIR$/m/Snackbar.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/v/inc/base.js" />
+        <option value="$PROJECT_DIR$/sw.js" />
       </list>
     </option>
   </component>
@@ -185,6 +148,12 @@
   <component name="JiraServerManager">
     <selected>-1</selected>
     <servers />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="SsJTLXMq" />
@@ -322,7 +291,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49676898" weight="0.32739726" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5282215" visible="true" weight="0.28511822" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.5282215" visible="true" weight="0.28511822" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49893504" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47819063" side_tool="true" weight="0.36161336" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32962447" />
@@ -559,20 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v/users/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="130" column="60" selection-start-line="130" selection-start-column="60" selection-end-line="130" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v/inc/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="154" column="58" lean-forward="true" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m/DB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -590,27 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v/inc/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/v/layout/in.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -622,6 +556,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="111" column="6" lean-forward="true" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/users/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>

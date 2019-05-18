@@ -20,7 +20,6 @@ abstract class Snackbar {
             unset($_SESSION['bnd_snackbar']['show']);
             $html = '<div class="snackbar">
                 <div class="snackbar-message">'.$_SESSION['bnd_snackbar']['message'].'</div>
-                <div class="snackbar-close"><i class="fas fa-times"></i></div>
             </div>';
         }
         return $html;
