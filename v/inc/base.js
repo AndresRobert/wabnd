@@ -1,3 +1,9 @@
+// SW
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/sw.js').then(registration => {
+        console.log('SW Registered');
+    });
+}
 // Setup
 let fast = 300;
 let normal = 500;
@@ -20,24 +26,24 @@ $(() => {
     };
     snackbar = (type = 'result', message = '') => {
         $.post('/ms/snackbar.php', {type: type, message: message},
-            (html) => {
+            html => {
                 $(".snackbar").remove();
                 $('body').append(html);
             }
         );
     };
-    isEmpty = (inputId) => {
+    isEmpty = inputId => {
         return $('#' + inputId).val().trim() === "";
     };
-    empty = (inputId) => {
+    empty = inputId => {
         return $('#' + inputId).val('');
     };
-    isNotEmail = (inputId) => {
+    isNotEmail = inputId => {
         let emailRegularExpresion = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         let $input = $('#' + inputId).val();
         return !emailRegularExpresion.test($input);
     };
-    inputError = (inputId) => {
+    inputError = inputId => {
         let $input = $('#' + inputId);
         if (!$input.hasClass('error')) {
             $input

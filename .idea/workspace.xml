@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77b05639-918f-421c-a359-0343c0e5049f" name="Default Changelist" comment="" />
+    <list default="true" id="77b05639-918f-421c-a359-0343c0e5049f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/inc/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/v/inc/base.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,42 +34,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v/inc/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="154" column="58" lean-forward="true" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/v/layout/in.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/m/DB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="133" selection-start-line="12" selection-start-column="133" selection-end-line="12" selection-end-column="133" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/v/inc/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -122,7 +115,6 @@
         <option value="$PROJECT_DIR$/ms/snackbar.php" />
         <option value="$PROJECT_DIR$/m/Mail.php" />
         <option value="$PROJECT_DIR$/v/layout/default.php" />
-        <option value="$PROJECT_DIR$/m/DB.php" />
         <option value="$PROJECT_DIR$/c/users.php" />
         <option value="$PROJECT_DIR$/ms/users.php" />
         <option value="$PROJECT_DIR$/v/inc/grid.css" />
@@ -135,10 +127,12 @@
         <option value="$PROJECT_DIR$/v/layout/out.php" />
         <option value="$PROJECT_DIR$/v/users/login.php" />
         <option value="$PROJECT_DIR$/v/layout/in.php" />
-        <option value="$PROJECT_DIR$/v/inc/base.js" />
         <option value="$PROJECT_DIR$/v/inc/base.css" />
         <option value="$PROJECT_DIR$/v/users/dashboard.php" />
         <option value="$PROJECT_DIR$/v/layout/credits.php" />
+        <option value="$PROJECT_DIR$/m/DB.php" />
+        <option value="$PROJECT_DIR$/v/inc/base.js" />
+        <option value="$PROJECT_DIR$/sw.js" />
       </list>
     </option>
   </component>
@@ -165,25 +159,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wabnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wabnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wabnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wabnd" type="462c0819:PsiDirectoryNode" />
-              <item name="m" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -235,12 +211,21 @@
       <option name="presentableId" value="Default" />
       <updated>1554337881659</updated>
     </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1558146594850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558146594851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49635038" weight="0.10021322" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49635038" weight="0.10275081" />
       <window_info id="Favorites" order="1" sideWeight="0.50364965" side_tool="true" weight="0.1615509" />
       <window_info id="Structure" order="2" sideWeight="0.50364965" side_tool="true" weight="0.19542067" />
       <window_info anchor="bottom" id="Atlassian " order="0" />
@@ -252,13 +237,14 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49676898" weight="0.32739726" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.5282215" visible="true" weight="0.28511822" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.5282215" weight="0.28511822" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49893504" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47819063" side_tool="true" weight="0.36161336" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.5218094" weight="0.26027396" />
       <window_info anchor="bottom" id="Thumbnails" order="14" sideWeight="0.49946752" weight="0.32970297" />
       <window_info anchor="bottom" id="JIRA" order="15" weight="0.06536857" />
+      <window_info anchor="bottom" id="File Transfer" order="16" visible="true" weight="0.32962447" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -309,6 +295,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/v/inc/fa/js/all.min.js">
@@ -411,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m/Helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m/Mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -489,31 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v/layout/in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v/inc/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
-          <folding>
-            <element signature="e#891#951#0" />
-            <element signature="e#978#1026#0" />
-            <element signature="e#1058#1355#0" />
-            <element signature="e#1387#1648#0" />
-            <element signature="e#2260#2503#0" />
-            <element signature="e#2550#2773#0" />
-            <element signature="e#2829#2972#0" />
-            <element signature="e#3027#3124#0" />
-            <element signature="e#3179#3276#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/v/layout/credits.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -528,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="133" selection-start-line="12" selection-start-column="133" selection-end-line="12" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -546,6 +499,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="154" column="58" lean-forward="true" selection-start-line="154" selection-start-column="58" selection-end-line="154" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/layout/in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#397#443#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/Helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#158#3668#0" />
+            <element signature="e#978#1026#0" />
+            <element signature="e#1058#1355#0" />
+            <element signature="e#1387#1648#0" />
+            <element signature="e#1711#2177#0" />
+            <element signature="e#2260#2503#0" />
+            <element signature="e#2550#2773#0" />
+            <element signature="e#2829#2972#0" />
+            <element signature="e#3027#3124#0" />
+            <element signature="e#3179#3276#0" />
+            <element signature="e#3331#3489#0" />
+            <element signature="e#3579#3664#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
