@@ -45,7 +45,7 @@ p {font-size: 1rem;}
     --nav-shadow: #666;
     --nav-item-selected: #EEE;
     --nav-item: #333;
-    --nav-toggle-background: #BBB;
+    --nav-toggle-background: #AAA;
     --nav-toggle-text: #FFF;
     --nav-disabler: #00000066;
     --fab-background: #333;
@@ -153,9 +153,8 @@ nav {
     width: 18rem;
     background: var(--nav-background);
     box-shadow: 0.1rem 0 1.5rem -0.3rem var(--nav-shadow);
-    padding: 1rem 0.1rem 1rem 0.5rem;
+    padding: 1rem 0.5rem;
     z-index: 2;
-    border-right: 0.4rem solid var(--nav-border);
     animation: nav_slideIn 0.3s 1;
 }
 nav.collapsed {left: -18rem;animation: nav_slideOut 0.3s 1;box-shadow: 0.1rem 0 1.5rem -0.3rem var(--nav-shadow-collapsed);}
@@ -186,24 +185,28 @@ fab > icon {
 }
 nav > .nav-toggle-l {
     display: none;
-    width: 0;
-    height: 0;
-    border-top: 1rem solid transparent;
-    border-bottom: 1rem solid transparent;
-    border-left: 0.5rem solid var(--nav-toggle-background);
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
     position: absolute;
-    top: 3.2rem;
-    right: -0.55rem;
-    background-color: transparent;
+    top: 3.7rem;
+    right: -0.75rem;
+    background-color: var(--fab-background);
+    color: var(--fab-text);
     cursor: pointer;
+
 }
 
-nav > .nav-toggle-l.opened {
-    right: -0.4rem;
-    border-left: 0;
-    border-right: 0.5rem solid var(--nav-toggle-background);
+nav > .nav-toggle-l > icon {
+    width: 0.6em;
+    height: 0.6em;
+    margin: 0.4em 0.4em;
+    background-color: var(--fab-text) !important;
 }
-nav > .nav-toggle-l:hover {filter: brightness(1.5);}
+nav > .nav-toggle-l.opened {
+
+}
+nav > .nav-toggle-l:hover {filter: brightness(2);}
 /* 720px */ @media only screen and (min-width: 45em) {
     nav {animation: nav_slideIn 0.3s 1;}
     nav.collapsed {left: -14.7rem;animation: nav_slideOut 0.3s 1;}

@@ -6,12 +6,11 @@ if (session_status() == PHP_SESSION_NONE) {
 
 abstract class DB {
 
-    private static $server = [
-        'host' => '127.0.0.1',
-        'user' => 'root',
-        'password' => 'mysql',
-        'DB' => 'arcodepr_bnd'
-    ];
+    // Development
+    //private static $server = ['host' => '127.0.0.1', 'user' => 'root', 'password' => 'mysql', 'DB' => 'arcodepr_bnd'];
+
+    // Production
+    private static $server = ['host' => 'localhost', 'user' => 'arcodepr_admindd', 'password' => 'Kanashimi.1', 'DB' => 'arcodepr_bnd'];
 
     /**
      * @return false|mysqli|string

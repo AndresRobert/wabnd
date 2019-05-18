@@ -35,7 +35,7 @@ $action = isset($action) && $action != ''
 <div class="nav-disabler"></div>
 <fab class="nav-toggle-s"><icon class="menu"></icon></fab>
 <nav class="collapsed">
-    <div class="nav-toggle-l"></div>
+    <div class="nav-toggle-l"><icon class="menu"></icon></div>
     <ul>
         <li id="goToDashboard">Dashboard <icon class="dashboard to-right"></icon></li>
         <li class="divider"></li>
