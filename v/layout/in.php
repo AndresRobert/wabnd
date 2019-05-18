@@ -28,7 +28,6 @@ $action = isset($action) && $action != ''
     <link href="/v/inc/base.css?<?php echo $_SESSION['refreshEachSession']; ?>" type="text/css" rel="stylesheet" media="screen,projection"/>
     <script src="/v/inc/jquery-3.4.0.min.js" type="text/javascript"></script>
     <script src="/v/inc/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="/v/inc/fa/js/all.min.js" type="text/javascript"></script>
     <script src="/v/inc/base.js?<?php echo $_SESSION['refreshEachSession']; ?>" type="text/javascript"></script>
 </head>
 <body>
