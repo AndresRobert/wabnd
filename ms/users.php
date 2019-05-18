@@ -17,7 +17,8 @@ if ($post['request'] == 'login') {
             echo json_encode(['success' => false, 'message' => 'Your email/password does not match any user']);
         }
     }
-} elseif ($post['request'] == 'register') {
+}
+elseif ($post['request'] == 'register') {
     $email = $post['email'];
     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
     if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -41,7 +42,8 @@ if ($post['request'] == 'login') {
             }
         }
     }
-} elseif ($post['request'] == 'recover') {
+}
+elseif ($post['request'] == 'recover') {
     $email = $post['email'];
     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
     if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
@@ -64,7 +66,8 @@ if ($post['request'] == 'login') {
             echo json_encode(['success' => false, 'message' => 'No user found']);
         }
     }
-} elseif ($post['request'] == 'logout') {
+}
+elseif ($post['request'] == 'logout') {
     Auth::logout();
     echo json_encode(['success' => true, 'message' => 'Logout successful']);
 } else {

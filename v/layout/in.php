@@ -13,7 +13,7 @@ $action = isset($action) && $action != ''
         ? $_POST['action']
         : (isset($_SESSION['POST']['action']) && $_SESSION['POST']['action'] != ''
             ? $_SESSION['POST']['action']
-            : 'login'
+            : 'dashboard'
         )
     );
 ?>
@@ -29,6 +29,7 @@ $action = isset($action) && $action != ''
     <script src="/v/inc/jquery-3.4.0.min.js" type="text/javascript"></script>
     <script src="/v/inc/jquery-ui.min.js" type="text/javascript"></script>
     <script src="/v/inc/base.js?<?php echo $_SESSION['refreshEachSession']; ?>" type="text/javascript"></script>
+    <script src="/v/inc/main.js?<?php echo $_SESSION['refreshEachSession']; ?>" type="text/javascript"></script>
 </head>
 <body>
 <div class="nav-disabler"></div>

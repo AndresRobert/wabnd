@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77b05639-918f-421c-a359-0343c0e5049f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v/inc/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v/inc/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v/inc/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v/inc/img/app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v/inc/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m/Snackbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/m/Snackbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/m/Auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/ms/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/inc/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/v/inc/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v/inc/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/v/inc/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/users/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/users/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v/layout/in.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/layout/in.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +42,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v/inc/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="-1171">
+              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sw.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="378">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v/inc/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+              <folding>
+                <element signature="e#35#757#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,9 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;row</find>
-      <find>row</find>
-      <find>at</find>
       <find>.svg-inline--fa.fa-w-16</find>
       <find>#</find>
       <find>nav-toggle</find>
@@ -95,6 +110,9 @@
       <find>input</find>
       <find>icon</find>
       <find>&lt;i class=&quot;</find>
+      <find>&lt;script&gt;</find>
+      <find>service</find>
+      <find>$(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,25 +136,29 @@
         <option value="$PROJECT_DIR$/m/Mail.php" />
         <option value="$PROJECT_DIR$/v/layout/default.php" />
         <option value="$PROJECT_DIR$/c/users.php" />
-        <option value="$PROJECT_DIR$/ms/users.php" />
         <option value="$PROJECT_DIR$/v/inc/grid.css" />
-        <option value="$PROJECT_DIR$/m/Auth.php" />
         <option value="$PROJECT_DIR$/m/User.php" />
         <option value="$PROJECT_DIR$/m/Helper.php" />
         <option value="$PROJECT_DIR$/v/users/profile.php" />
         <option value="$PROJECT_DIR$/v/users/index.php" />
         <option value="$PROJECT_DIR$/c/inc/auth.php" />
-        <option value="$PROJECT_DIR$/v/inc/base.css" />
         <option value="$PROJECT_DIR$/v/users/dashboard.php" />
         <option value="$PROJECT_DIR$/v/layout/credits.php" />
         <option value="$PROJECT_DIR$/m/DB.php" />
-        <option value="$PROJECT_DIR$/v/layout/in.php" />
         <option value="$PROJECT_DIR$/v/layout/out.php" />
         <option value="$PROJECT_DIR$/v/users/login.php" />
         <option value="$PROJECT_DIR$/m/Snackbar.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/v/inc/base.js" />
+        <option value="$PROJECT_DIR$/ms/users.php" />
+        <option value="$PROJECT_DIR$/m/Auth.php" />
+        <option value="$PROJECT_DIR$/v/inc/colors.css" />
+        <option value="$PROJECT_DIR$/v/inc/icons.css" />
+        <option value="$PROJECT_DIR$/v/inc/fonts.css" />
+        <option value="$PROJECT_DIR$/v/inc/base.css" />
         <option value="$PROJECT_DIR$/sw.js" />
+        <option value="$PROJECT_DIR$/v/inc/main.js" />
+        <option value="$PROJECT_DIR$/v/layout/in.php" />
+        <option value="$PROJECT_DIR$/v/inc/base.js" />
       </list>
     </option>
   </component>
@@ -180,7 +202,7 @@
             <path>
               <item name="wabnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="wabnd" type="462c0819:PsiDirectoryNode" />
-              <item name="m" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wabnd" type="b2602c69:ProjectViewProjectNode" />
@@ -192,6 +214,13 @@
               <item name="wabnd" type="462c0819:PsiDirectoryNode" />
               <item name="v" type="462c0819:PsiDirectoryNode" />
               <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wabnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wabnd" type="462c0819:PsiDirectoryNode" />
+              <item name="v" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wabnd" type="b2602c69:ProjectViewProjectNode" />
@@ -214,29 +243,29 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/v/inc/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/v/inc/img/icon" />
-      <recent name="$PROJECT_DIR$/v/inc/img" />
-      <recent name="$PROJECT_DIR$/m" />
-      <recent name="$PROJECT_DIR$/v/layout" />
-      <recent name="$PROJECT_DIR$/v/users" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/v/inc/img/icon" />
       <recent name="$PROJECT_DIR$/v/inc/material/css" />
       <recent name="$PROJECT_DIR$/v/inc/material/js" />
       <recent name="$PROJECT_DIR$/v/inc/fa/js" />
       <recent name="$PROJECT_DIR$/v/inc/fa/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/v/inc/img" />
+      <recent name="$PROJECT_DIR$/v/inc/img/icon" />
+      <recent name="$PROJECT_DIR$/m" />
+      <recent name="$PROJECT_DIR$/v/layout" />
+      <recent name="$PROJECT_DIR$/v/users" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,19 +301,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558146594851</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="avance">
+      <created>1558193820453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558193820453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49635038" visible="true" weight="0.16666667" />
       <window_info id="Favorites" order="1" sideWeight="0.50364965" side_tool="true" weight="0.1615509" />
       <window_info id="Structure" order="2" sideWeight="0.50364965" side_tool="true" weight="0.19542067" />
       <window_info anchor="bottom" id="Atlassian " order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946752" weight="0.32871288" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946752" weight="0.32823366" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -292,7 +327,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49676898" weight="0.32739726" />
       <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.5282215" visible="true" weight="0.28511822" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49893504" weight="0.32970297" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49893504" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.47819063" side_tool="true" weight="0.36161336" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32962447" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.5218094" weight="0.26027396" />
@@ -354,7 +389,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="avance" />
+    <option name="LAST_COMMIT_MESSAGE" value="avance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/v/inc/fa/js/all.min.js">
@@ -446,32 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#88#205#0#PHP" expanded="true" />
-            <element signature="e#1323#1354#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/m/Mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m/Snackbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#38#87#0#PHP" expanded="true" />
-            <element signature="e#330#363#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -490,13 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ms/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -545,31 +552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v/layout/in.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/v/layout/out.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v/inc/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="111" column="6" lean-forward="true" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v/users/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -580,17 +566,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v/inc/base.js">
+    <entry file="file://$PROJECT_DIR$/v/users/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="127">
+          <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/Snackbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#38#87#0#PHP" expanded="true" />
+            <element signature="e#330#363#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#88#205#0#PHP" expanded="true" />
+            <element signature="e#1323#1354#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="e#292#3570#0#PHP" />
+            <element signature="e#886#2220#0#PHP" />
+            <element signature="e#2221#3346#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/layout/in.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="e#35#757#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="378">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v/inc/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1171">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>

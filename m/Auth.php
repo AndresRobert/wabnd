@@ -30,6 +30,7 @@ abstract class Auth {
      * @return bool
      */
     static public function logout () {
+        unset($_SESSION);
         session_unset();
         session_destroy();
         return true;

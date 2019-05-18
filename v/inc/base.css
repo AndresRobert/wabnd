@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import "colors.css";
+@import "icons.css";
+@import "fonts.css";
 html, body {height: 100%;width: 100%;margin: 0;padding: 0;left: 0;top: 0;font-size: 100%;}
 * {font-family: 'Roboto', sans-serif;line-height: 1;box-sizing: border-box;margin: 0;padding: 0; position: relative;}
 h1, h2, h3, h4, h5, h6 {font-weight: bold;}
@@ -15,76 +17,6 @@ p {font-size: 1rem;}
     h2 {font-size: 3.5rem;}
     h3 {font-size: 2.5rem;}
     h4 {font-size: 1.75rem;}
-}
-
-/* ==== COLORS n Sizes ==== */
-:root {
-    --input-border: #DDD;
-    --input-border-focus: #999;
-    --input-error: #F00000;
-    --input-color: #333;
-    --pre-background: #FAFAFA;
-    --pre-color: #666;
-    --button-border: #555555AA;
-    --button-background: #666;
-    --button-color: #FFF;
-    --card-border: #555555AA;
-    --card-background: #FFF;
-    --tab-container-border: #EEE;
-    --tab-item-background: #EEE;
-    --tab-item-background-hover: #F5F5F5;
-    --tab-item-border: #EEE;
-    --tab-item-color: #CCC;
-    --tab-selected-background: #FFF;
-    --tab-selected-border: #EEE;
-    --tab-selected-color: #333;
-    --tab-content-background: #FFF;
-    --nav-background: #FFF;
-    --nav-border: #DDD;
-    --nav-shadow-collapsed: #AAA;
-    --nav-shadow: #666;
-    --nav-item-selected: #EEE;
-    --nav-item: #333;
-    --nav-toggle-background: #AAA;
-    --nav-toggle-text: #FFF;
-    --nav-disabler: #00000066;
-    --fab-background: #333;
-    --fab-text: #FFF;
-    --snackbar-background: #333;
-    --snackbar-text: #FFF;
-    --avatar-border: #CCC;
-    --rounded-min: 0.2rem;
-    --rounded-mid: 0.5rem;
-    --rounded-full: 1rem;
-    --border-bottom: 3px;
-    --icon: #333;
-}
-
-/* ==== ICONS ==== */
-icon {
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
-    margin: 0 0.5rem;
-    pointer-events: none;
-}
-
-icon.dashboard {
-    background-color: var(--icon);
-    -webkit-mask-image: url(img/icon/dashboard.svg);
-    mask-image: url(img/icon/dashboard.svg);
-}
-
-icon.logout {
-    background-color: var(--icon);
-    -webkit-mask-image: url(img/icon/logout.svg);
-    mask-image: url(img/icon/logout.svg);
-}
-
-icon.menu {
-    background-color: var(--icon);
-    -webkit-mask-image: url(img/icon/menu.svg);
-    mask-image: url(img/icon/menu.svg);
 }
 
 /* ==== DOM ==== */
@@ -297,11 +229,6 @@ svg {pointer-events: none;}
     width: 100%;
     border-radius: var(--rounded-mid);
     padding: 1rem;
-}
-
-/* ==== FontAwesome Fixes ==== */
-.fa-2x {
-    width: 1em !important;
 }
 
 /* ==== Forced ==== */

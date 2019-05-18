@@ -1,0 +1,26 @@
+/* ==== ICONS ==== */
+icon {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 0 0.5rem;
+    pointer-events: none;
+}
+
+icon.dashboard {
+    background-color: var(--icon);
+    -webkit-mask-image: url(img/icon/dashboard.svg);
+    mask-image: url(img/icon/dashboard.svg);
+}
+
+icon.logout {
+    background-color: var(--icon);
+    -webkit-mask-image: url(img/icon/logout.svg);
+    mask-image: url(img/icon/logout.svg);
+}
+
+icon.menu {
+    background-color: var(--icon);
+    -webkit-mask-image: url(img/icon/menu.svg);
+    mask-image: url(img/icon/menu.svg);
+}

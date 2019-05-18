@@ -1,11 +1,3 @@
-// SW
-if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js').then(registration => {
-        if (registration.active) {
-            registration.active.postMessage('Message to Chrome');
-        }
-    }).catch(console.log);
-}
 // Setup
 let fast = 300;
 let normal = 500;

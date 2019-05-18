@@ -1,0 +1,42 @@
+/* ==== COLORS n Sizes ==== */
+:root {
+    --input-border: #DDD;
+    --input-border-focus: #999;
+    --input-error: #F00000;
+    --input-color: #333;
+    --pre-background: #FAFAFA;
+    --pre-color: #666;
+    --button-border: #555555AA;
+    --button-background: #666;
+    --button-color: #FFF;
+    --card-border: #555555AA;
+    --card-background: #FFF;
+    --tab-container-border: #EEE;
+    --tab-item-background: #EEE;
+    --tab-item-background-hover: #F5F5F5;
+    --tab-item-border: #EEE;
+    --tab-item-color: #CCC;
+    --tab-selected-background: #FFF;
+    --tab-selected-border: #EEE;
+    --tab-selected-color: #333;
+    --tab-content-background: #FFF;
+    --nav-background: #FFF;
+    --nav-border: #DDD;
+    --nav-shadow-collapsed: #AAA;
+    --nav-shadow: #666;
+    --nav-item-selected: #EEE;
+    --nav-item: #333;
+    --nav-toggle-background: #AAA;
+    --nav-toggle-text: #FFF;
+    --nav-disabler: #00000066;
+    --fab-background: #333;
+    --fab-text: #FFF;
+    --snackbar-background: #333;
+    --snackbar-text: #FFF;
+    --avatar-border: #CCC;
+    --rounded-min: 0.2rem;
+    --rounded-mid: 0.5rem;
+    --rounded-full: 1rem;
+    --border-bottom: 3px;
+    --icon: #333;
+}
